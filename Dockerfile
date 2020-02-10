@@ -6,7 +6,7 @@ FROM openhab/openhab:${OPENHAB_VERSION}
 
 ## Where will we install jython inside container
 ARG JYTHON_HOME="/opt/jython"
-ARG JYTHON_VERSION="2.7.0"
+ARG JYTHON_VERSION="2.7.1"
 
 ## To avoid the need to setup jython's opts by the user, we will modify EXTRA_JAVA_OPTS in init scripts ENV provided for convinience if you need to run it by hand
 ENV \
