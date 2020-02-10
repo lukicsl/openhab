@@ -1,8 +1,7 @@
 
 ## From which base container as in https://hub.docker.com/r/openhab/openhab/#image-variants eg. 2.4.0.M6-armhf-debian
 ARG OPENHAB_VERSION
-#FROM openhab/openhab:${OPENHAB_VERSION}
-FROM openhab/openhab:2.5.1
+FROM openhab/openhab:${OPENHAB_VERSION}
 
 
 ## Where will we install jython inside container
